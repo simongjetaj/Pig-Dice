@@ -35,7 +35,7 @@ namespace PigDice
             }
             TotalScore = sum;
 
-            if (this.TotalScore >= 20)
+            if (this.TotalScore >= 100)
             {
                 Console.WriteLine($"{this.Name} Won! Congratulations!");
         
