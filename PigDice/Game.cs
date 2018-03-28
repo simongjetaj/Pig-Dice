@@ -47,8 +47,9 @@ namespace PigDice
         {
             do
             {
-                firstRoll = p1.RollDices()[0];
-                secondRoll = p1.RollDices()[1];
+                int[] roll = p1.RollDices();
+                firstRoll = roll[0];
+                secondRoll = roll[1];
                 Console.WriteLine($"{p1.Name}, you rolled a {firstRoll} and a {secondRoll}.");
                 
                 if (firstRoll == 1 || secondRoll == 1)
